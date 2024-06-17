@@ -41,8 +41,8 @@ M.ui = {
     bg_colorcolumn   = color.gray1,
     bg_cursorline    = color.gray2,
 
-    bg_visual        = color.gray8,
-    fg_visual        = color.black,
+    bg_visual        = color.gray4,
+    fg_visual        = color.gray8,
 
     fg_search        = color.black,
     bg_search_item   = color.lack,
