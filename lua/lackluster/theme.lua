@@ -79,6 +79,7 @@ M.syntax_default = {
 	keyword = color_special.keyword,
 	keyword_return = color_special.exception,
 	keyword_exception = color_special.exception,
+	keyword_publish = color_special.exception,
 	string = color.lack,
 	string_escape = color.green,
 	punctuation = color.gray6,
@@ -89,6 +90,7 @@ M.syntax_default = {
 M.syntax_hack = vim.tbl_deep_extend("force", M.syntax_default, {
 	keyword_return = color.green,
 	keyword_exception = color.blue,
+	keyword_publish = color.green,
 })
 
 ---@type LacklusterThemeSyntax
@@ -122,6 +124,7 @@ M.syntax_dark = {
 	keyword = color.gray5,
 	keyword_return = color.green,
 	keyword_exception = color.blue,
+	keyword_publish = color.green,
 	string = "#aa6666",
 	string_escape = color.blue,
 	punctuation = color.gray6,
